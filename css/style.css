@@ -65,7 +65,7 @@ header{
 }
 .servicos_icones{
     padding:50px;
-    width: 1680px;
+    width: 90%;
     height: 160px;
     border: 0;
     margin: auto;
@@ -77,8 +77,8 @@ header{
     margin: auto;
     border: 0;
     display: flex;
-    width: 850px;
-    height: 160px;
+    width: 60rem;
+    height: 6rem;
     font-size: small;
     gap: 8rem;
 }
@@ -100,11 +100,11 @@ header{
 .image-section img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.363);
     background-position: center;
-    max-width: 500px;
+    max-width: 30rem;
     border-radius: 10px;
 }
 .image-section img:hover{
-    max-width: 700px;
+    max-width: 40rem;
     transition: all 0.5s ease-in-out;
 }
 .container_fotos{
@@ -253,3 +253,34 @@ a{
     margin-top: 147px;
 
 }
+@media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .logo {
+      text-align: center;
+      flex-direction: column;
+    }
+  
+    .cards {
+      flex-direction: column;
+    }
+  
+    .container_fotos {
+      flex-direction: column;
+    }
+  
+    .text-section {
+      text-align: center;
+    }
+  
+    .contato {
+      text-align: center;
+    }
+  
+    #insta, #zap, #email {
+      display: inline-block;
+      margin: 10px;
+    }
+  }
