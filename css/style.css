@@ -104,7 +104,7 @@ header{
     border-radius: 10px;
 }
 .image-section img:hover{
-    max-width: 40rem;
+    max-width: 35rem;
     transition: all 0.5s ease-in-out;
 }
 .container_fotos{
@@ -254,34 +254,58 @@ a{
     margin-top: 147px;
 
 }
-@media (max-width: 768px) {
-    .container {
-      padding: 20px;
+@media screen and (max-width: 1100px){
+    header{
+        margin-left: -270px;
+        margin-bottom: 200px;
+        text-align: center;
+        flex-direction: column;
     }
-  
-    .logo {
-      text-align: center;
-      flex-direction: column;
+    .logo{
+        padding-bottom: 0;
     }
-  
-    .cards {
-      flex-direction: column;
+    .servicos_icones{
+        margin-bottom: 300px;
+        gap:1rem;
     }
-  
-    .container_fotos {
-      flex-direction: column;
+
+    #movel1{
+        margin-top: -100px;
+        max-height: 400px;
+        max-width: 600px;
+        margin-left: 270px;
     }
-  
-    .text-section {
-      text-align: center;
+    .cards{
+        margin-top: -190px;
+        margin-left: -335px;
+        position: relative;
+        text-align: center;
+        padding: 0;
+        font-size: smaller;
+        flex-direction: column;
     }
-  
-    .contato {
-      text-align: center;
+    .container_fotos{
+        margin-left: -100px;
+        margin:0;
+        flex-direction: column;
+        border: 0;
     }
-  
-    #insta, #zap, #email {
-      display: inline-block;
-      margin: 10px;
+    .text-section{
+        font-size: large;
+        text-align: left;
+        margin-left: -125px;
     }
-  }
+    .image-section{
+        max-width: 500px;
+    }
+    .image-section[disabled]:hover{
+        max-width: 500px;
+    }
+    #insta1,#zap1,#email1{
+        margin-left: 0;
+    }
+    footer{
+        margin-left: -30px;
+        text-align: center;
+    }
+}
