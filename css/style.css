@@ -254,7 +254,7 @@ a{
     margin-top: 147px;
 
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
     *{
         overflow-y: hidden;
     }
