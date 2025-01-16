@@ -255,6 +255,9 @@ a{
 
 }
 @media screen and (max-width: 750px){
+    *{
+        overflow-y: hidden;
+    }
     header{
         margin-left: -270px;
         margin-bottom: 200px;
@@ -298,7 +301,7 @@ a{
     .image-section{
         max-width: 500px;
     }
-    .image-section[disable]:hover{
+    .image-section :hover{
         max-width: 500px;
     }
     #insta1,#zap1,#email1{
