@@ -256,7 +256,7 @@ a{
 }
 @media screen and (max-width: 750px){
     *{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     header{
         margin-left: -270px;
