@@ -206,7 +206,7 @@ footer {
     color: #f0c14b;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .footer-container {
         flex-direction: column;
         text-align: center;
@@ -254,7 +254,7 @@ a{
     margin-top: 147px;
 
 }
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 900px){
     header{
         margin-left: -270px;
         margin-bottom: 200px;
@@ -298,7 +298,7 @@ a{
     .image-section{
         max-width: 500px;
     }
-    .image-section[disabled]:hover{
+    .image-section[disable]:hover{
         max-width: 500px;
     }
     #insta1,#zap1,#email1{
