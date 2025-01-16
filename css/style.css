@@ -254,9 +254,9 @@ a{
     margin-top: 147px;
 
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 600px){
     *{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     header{
         margin-left: -270px;
